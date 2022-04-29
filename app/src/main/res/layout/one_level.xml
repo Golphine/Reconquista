@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="add"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:text="Предисловие"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="587dp"
+            android:padding="20dp"
+            android:text="Реконкиста на Пиренейском полуострове длилась более 7 веков. Это было время славных побед и горьких поражений, коварных предательств и героической преданности. Борьба христиан с маврами подарила Испании, наверное, одного из самых известных ее национальный героев - Родриго Диаса де Вивара, которого прозвали Эль Сид Кампеадор. Вам предоставиться возможность пройти часть пути Эль Сида, или же свой , иной путь."
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button_start_the_game"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:text="Приступить"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
